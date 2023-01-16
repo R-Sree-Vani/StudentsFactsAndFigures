@@ -1,0 +1,140 @@
+
+html
+{
+  scroll-behavior: smooth;
+}
+.topnav {
+           
+           background-color:#1100fc;
+           position: fixed;
+           top:0;
+           overflow: hidden;
+           height:11%;
+           width:100%;
+         }
+         .topnav a {
+           float: left;
+           color: white;
+           text-align: center;
+           padding: 20px;
+           text-decoration: none;
+           font-size: 20px;
+
+         }
+         .topnav a:hover {
+            //background-color:#52cbd1;
+            background-color:#FFFFF0;
+            color: black;
+         }
+         .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+         }
+         .topnav-right {
+            float: right;
+            color:white;
+         }
+         .frhead{
+          background-color: #73c2fd;
+          height: 370px;
+         } 
+         .imgcls1{
+          margin:20px;
+          float:left;
+          border-radius: 9px;
+         } 
+         .wrthead{
+          font-family: Comic Sans MS;
+          color:white;
+          font-size: 40;
+          text-align: center;
+          text-shadow:3px 2px 5px blue;
+         } 
+         .wrtfont{
+          text-align: center;
+          text-shadow:3px 2px 5px blue;
+          padding-left: 150px;
+        } 
+        .offerpara{
+          font-size: 25;
+          color: blue;
+          font-family: Comic Sans MS;
+        } 
+       .outdiv{
+        padding-left: 170px;
+       }
+         .mattimg{
+          margin: 20px;
+
+         } 
+
+         .mattwrt{
+          color:white;
+         }
+          .matt{
+
+             display:inline-block;
+             position:static;
+             margin:20px;
+             left:4000px;
+             background-color:#73c2fd;
+             border-style:solid;
+             border-color: blue;
+             border-width:1px;
+             width:25%;height:40%;
+             border-radius: 7px;
+             box-shadow: 3px 2px 5px blue;
+             horizontal-align:baseline;
+          }  
+
+           .abtdiv{
+             background-color:#202020;
+             background-attachment:scroll;
+             color:white;
+             height:170%;
+             width:100%;
+          }
+
+         .lgcls{
+             padding-left:6%;
+          }
+         .lgframe{
+             display:flex;
+             width:45%;
+             align:center;
+            // background-color:#73c2fd;
+              border-style:solid;
+             border-width:1px;
+             height:70%;
+             //padding-left:50%;
+            // margin:25%;
+          }
+          .lgframe > div{
+              width:80%;
+          }
+          .lgwrt{
+              margin:5px;
+              text-align:center;
+              padding-left:40px;
+          } 
+     
+          .sgnbtn{
+              width:40%;
+              height:25px;
+              background-color:blue;
+              color:white;
+          }
+          .lgnbtn{
+                width:40%;
+              height:25px;
+              background-color:blue;
+              color:white;
+          } 
+  
+          .lgnp{
+              font-size:45;
+              color: blue;
+              font-family: Comic Sans MS;
+          }
+
+         

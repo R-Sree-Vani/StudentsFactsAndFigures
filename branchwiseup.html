@@ -1,0 +1,190 @@
+<html>
+  <head>
+    <title>Selection</title>
+    <style>
+        .topnav {
+           //background-color:#FFFFF0;
+           background-color:#1100fc;
+           position: fixed;
+           top:0;
+           overflow: hidden;
+           height:11%;
+           width:100%;
+         }
+         .topnav a {
+           float: left;
+           color: white;
+           text-align: center;
+           padding: 20px;
+           text-decoration: none;
+           font-size: 20px;
+
+         }
+         .topnav a:hover {
+            //background-color:#52cbd1;
+            background-color:#FFFFF0;
+            color: black;
+         }
+         .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+         }
+         .topnav-right {
+            float: right;
+            color:white;
+         }
+
+         .abtdiv{
+             background-color:#202020;
+             background-attachment:scroll;
+             color:white;
+             height:170%;
+             width:100%;
+          }
+
+          .outdiv{
+             display:inline-block;
+             position:static;
+             margin:95px;
+             left:4000px;
+             background-color:white;
+             border-style:solid;
+             border-width:1px;
+             width:17%;height:40%;
+             horizontal-align:baseline;
+        }
+        .outdiv:hover{
+             background-color:#1100fc;
+             color:white;
+        }
+        .insdiv1{
+             display:inline-block;
+             position:static;
+             padding-left:20px;
+             padding-top:10px;
+             width:250px;
+        }
+        .insdiv2{
+             text-align:justify;
+             padding-bottom:90px;
+             padding-top:10px;
+             color:black;
+         }
+    </style>
+  </head>
+  <body>
+     <div class="topnav">
+          <div class="topnav-right">
+               <a href="intro.html">Back</a>
+               <a href="#home">Home</a>    
+               <a href="#aboutsec">About</a> 
+               <!--<a href="#login">Login</a>-->
+               <!--<a href="#login">Sign Up</a>-->
+               <!--<a href="#prof">Profiles</a>-->
+               <a href="#contact">Contact</a>
+          </div>
+      </div>
+
+
+      <br><br><br><br><br><br><br><br><br>
+ 
+       <div id="home">
+      <img src="branchimg.jpg"><center><h2><p>Choose your branch:</p></h2></center>
+      </div><br><br>
+
+      <div class="outdiv" onclick="redir1()">
+           <div class="insdiv1">
+               <img src="cse.png" height=70% width=70%><br><br>
+            </div>
+           <div clas=="insdiv2">
+               <center>Computer Science</center>
+           </div>
+      </div>  
+
+      
+       <div class="outdiv" onclick="redir()">
+           <div class="insdiv1">
+               <img src="mech.jpg" height=70% width=70%><br><br>
+            </div>
+           <div clas=="insdiv2">
+               <center>Mechanical Engineering</center>
+           </div>
+      </div>  
+
+       <div class="outdiv" onclick="redir()">
+           <div class="insdiv1">
+               <img src="ece.png" height=70% width=70%><br><br>
+            </div>
+           <div clas=="insdiv2">
+               <center>Electronics and Communication</center>
+           </div>
+      </div> <br>
+
+        <div class="outdiv" onclick="redir()">
+           <div class="insdiv1">
+               <img src="eee.png" height=70% width=70%><br><br>
+            </div>
+           <div clas=="insdiv2">
+               <center>Electrical and Electronics</center>
+           </div>
+      </div>   
+
+
+       <div class="outdiv" onclick="redir()">
+           <div class="insdiv1">
+               <img src="civil.jpg" height=70% width=70%><br><br>
+            </div>
+           <div clas=="insdiv2">
+               <center>Civil Engineering</center>
+           </div>
+      </div>  
+
+       <div class="outdiv" onclick="redir()">
+           <div class="insdiv1">
+               <img src="ai.png" height=70% width=70%><br><br>
+            </div>
+           <div clas=="insdiv2">
+               <center>AI and DS</center>
+           </div>
+      </div>  
+      <br><br><br><br><br><br><br><br><br>
+      <div class="abtdiv">
+           <div class="wrtabt"><br><br>
+               <center><h2><p id="aboutsec"><br><br><br><br>About</p></h2></center>
+               <center><hr width=80% color="white" height="0.5px"></center><br><br><br><br>
+               <center>Students may face a difficulty in finding all the relevant information regarding a topic at a particular point of time. It may be about
+               the topics related to studies or any important updates or announcement. So this website will help thosde students to find all their 
+                required information at a single platform.
+                It gives a detailed information about any subject from any semester together in a website.
+               So its easy to learn.Students could gather all related information at single place;</center><br><br><br><br><br><br><br><br><br><br>
+
+            </div>
+
+           <div class="contact">
+               <center><h2><p id="contact"><br><br>Contact</p></h2></center>
+               <center><hr width="50%" color="white"></center><br><br><br><br>
+                <center>sreevaniramisetti@gmail.com<br>
+                bandiraja2018@gmail.com<br>
+                sharmilapooja8025@gmail.com<br>
+                raghavendraudamula007@gmail.com<br>
+                pavanpebbuli44@gmail.com<center><br><br><br>
+            </div>
+      </div>
+
+
+
+
+     <script>
+         function redir1()
+         {
+             window.location.href="upcse.html";
+         }
+
+	    function redir()
+         {
+             window.location.href="intro.html";
+         }
+     </script>
+                  
+   </body>
+</html>
